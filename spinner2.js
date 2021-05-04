@@ -5,4 +5,4 @@ for (const animation of spinString) {
   setTimeout(() => {
     process.stdout.write(`\r${animation}   `);
   }, time);
-};
+}
